@@ -3,7 +3,7 @@ import axios from 'axios'
 
 // 创建实例时设置配置的默认值
 const instance = axios.create({
-    baseURL: '你的接口地址',    //例如h：ttps://test-test-test.vercel.app/
+    baseURL: 'https://netease-cloud-music-api-crete722p-hannah-bingo.vercel.app/',    //例如h：ttps://test-test-test.vercel.app/
     timeout: 5000,
     changeOrigin: true,  //跨域
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
